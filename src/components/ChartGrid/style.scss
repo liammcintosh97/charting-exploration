@@ -1,0 +1,13 @@
+.chart-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+
+  section{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+  }
+}
