@@ -1,7 +1,9 @@
-import { RouteObject } from "react-router-dom";
+import { IndexRouteObject, NonIndexRouteObject, RouteObject } from "react-router-dom";
 
-export interface Route {
-  path: string,
+export type Route = RouteObject & RouteProperties
+
+interface RouteProperties {
   name: string,
-  element: JSX.Element
+  children?: Route[]
 }
+
