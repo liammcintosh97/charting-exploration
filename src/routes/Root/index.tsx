@@ -8,7 +8,7 @@ export default function Root() {
     <Page
       title='React.js Charting Exploration'
     >
-      <p>A exploration of the top graphcial data charting packages in React.js</p>
+      <p>An exploration of the top 3 data visualization packages in React.js</p>
     </Page>
   )
 }
